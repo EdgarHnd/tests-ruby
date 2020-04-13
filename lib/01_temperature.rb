@@ -1,7 +1,9 @@
 def ftoc(temp)
-    return (temp - 32) * (5/9)
+    result = (temp - 32) * 5/9.to_f
+    return result
 end
 
 def ctof(temp)
-    return temp * (5/9) + 32
+    result = temp * 9/5.to_f + 32
+    return result
 end
